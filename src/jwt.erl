@@ -106,7 +106,7 @@ jwt_add_exp(ClaimsSet, Expiration) ->
 
 jwt_header(Alg) ->
     [ {<<"alg">>, Alg}
-    , {<<"typ">>, <<"JWT">>}
+%%    , {<<"typ">>, <<"JWT">>}
     ].
 
 %%
